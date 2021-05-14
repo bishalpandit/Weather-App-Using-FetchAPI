@@ -1,0 +1,26 @@
+.cardy {
+
+    width: 60%;
+    background: linear-gradient(45deg,#FFB64D,#ffcb80);
+    height: 320px;
+    border-radius: 15px;
+    color: white;
+}
+
+.cardy h1,h3,h5 {
+
+    padding: 1.1rem 2rem;
+}
+
+.info, .cardy {
+
+    transform: translateY(100px);
+}
+
+@media (max-width: 768px) {
+    
+    .info {
+
+        margin-left: 2rem;
+    }
+}
